@@ -25,5 +25,5 @@ def line(katz_deli)
     new_array << "#{num}. #{name}"
     num += 1 
   end
-  r
+  puts "The line is currently:#{new_array}"
 end 
