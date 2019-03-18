@@ -21,5 +21,6 @@ def line(katz_deli)
   else 
   new_array = []
   num = 1 
-  katz_deli.each do 
+  katz_deli.each do |name|
+    new_array << 
 end 
