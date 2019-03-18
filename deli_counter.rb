@@ -23,5 +23,6 @@ def line(katz_deli)
   num = 1 
   katz_deli.each do |name|
     new_array << "#{num}. #{name}"
+    num += 1 
     
 end 
